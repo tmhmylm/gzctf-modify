@@ -1,0 +1,9 @@
+/* The GZ::CTF Project @v1.8.1-patch.1
+ * 
+ * License   : GNU Affero General Public License v3.0 (Core)
+ * License   : LicenseRef-GZCTF-Restricted (Restricted components)
+ * Commit    : 5a682b5526cdc6853cb8d55a60a2b9797e544825
+ * Build     : 2026-02-11T11:32:17Z
+ * Copyright (C) 2022-2026 GZTimeWalker. All Rights Reserved.
+ */
+import{$r as e,E as t,Hi as n,Ir as r,Kr as i,Pa as a,V as o,fr as s,hr as c,j as l,lr as u,mi as d,ur as f,xa as p,z as m}from"./index.ozib4idt.js";import{t as h}from"./lo0i591i.js";import{n as g}from"./hjezaimb.js";var _=l(),v=a(p());const y=a=>{let{children:l,isLoading:p,...y}=a,b=f(),{id:x,chalId:S}=s(),[C,w]=[parseInt(x??`-1`),parseInt(S??`-1`)],{challenges:T}=g(C),{t:E}=c(),D=n(),{prev:O,current:k,next:A}=T?((e,t)=>{let n=e.findIndex(e=>e.id===t);return{prev:e[n-1],current:e[n],next:e[n+1]}})(T,w):{prev:null,current:null,next:null},j=t(),M=e=>e?j.get(e.category)?.color??D.primaryColor:D.primaryColor,N=b.pathname.replace(/\/admin\/games\/\d+\/challenges\/\d+/,``);return(0,v.jsx)(h,{isLoading:p,...y,children:(0,v.jsxs)(r,{mih:`calc(100vh - 12rem)`,justify:`space-between`,children:[l,(0,v.jsxs)(d,{justify:`space-between`,w:`100%`,wrap:`nowrap`,children:[(0,v.jsx)(i,{justify:`space-between`,component:u,disabled:p||!O,leftSection:(0,v.jsx)(_.Icon,{path:m,size:1}),to:O?.id?`/admin/games/${C}/challenges/${O?.id}${N}`:`#`,children:E(`admin.button.challenges.previous`)}),(0,v.jsxs)(d,{justify:`space-between`,gap:`xs`,wrap:`nowrap`,maw:`calc(100% - 16rem)`,children:[(0,v.jsx)(e,{c:`dimmed`,truncate:!0,children:O?.title??``}),(0,v.jsx)(e,{fw:`bold`,c:M(k),truncate:!0,children:k?.title??``}),(0,v.jsx)(e,{c:`dimmed`,truncate:!0,children:A?.title??``})]}),(0,v.jsx)(i,{disabled:p||!A,justify:`space-between`,component:u,rightSection:(0,v.jsx)(_.Icon,{path:o,size:1}),to:A?.id?`/admin/games/${C}/challenges/${A?.id}${N}`:`#`,children:E(`admin.button.challenges.next`)})]})]})})};export{y as t};

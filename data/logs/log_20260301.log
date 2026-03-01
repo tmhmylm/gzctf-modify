@@ -1,0 +1,32 @@
+[26-03-01 00:00:00.070 DBG] CacheMaker: Cache updated: _RecentGames[00:00:00.056] @ 21 bytes #Success <System> 
+[26-03-01 01:00:00.064 DBG] CacheMaker: Cache updated: _RecentGames[01:00:00.060] @ 21 bytes #Success <System> 
+[26-03-01 02:00:00.075 DBG] CacheMaker: Cache updated: _RecentGames[02:00:00.057] @ 21 bytes #Success <System> 
+[26-03-01 03:00:00.062 DBG] CacheMaker: Cache updated: _RecentGames[03:00:00.056] @ 21 bytes #Success <System> 
+[26-03-01 04:00:00.065 DBG] CacheMaker: Cache updated: _RecentGames[04:00:00.060] @ 21 bytes #Success <System> 
+[26-03-01 05:00:00.076 DBG] CacheMaker: Cache updated: _RecentGames[05:00:00.060] @ 21 bytes #Success <System> 
+[26-03-01 06:00:00.061 DBG] CacheMaker: Cache updated: _RecentGames[06:00:00.056] @ 21 bytes #Success <System> 
+[26-03-01 07:00:00.061 DBG] CacheMaker: Cache updated: _RecentGames[07:00:00.056] @ 21 bytes #Success <System> 
+[26-03-01 08:00:00.073 DBG] CacheMaker: Cache updated: _RecentGames[08:00:00.058] @ 21 bytes #Success <System> 
+[26-03-01 09:00:00.068 DBG] CacheMaker: Cache updated: _RecentGames[09:00:00.061] @ 21 bytes #Success <System> 
+[26-03-01 10:00:00.063 DBG] CacheMaker: Cache updated: _RecentGames[10:00:00.059] @ 21 bytes #Success <System> 
+[26-03-01 10:56:41.261 DBG] CronJobService: Cron job has been stopped #Exit <System> 
+[26-03-01 10:56:41.268 DBG] FlagChecker: Checking task was cancelled, checker worker #0 is about to stop #Exit <System> 
+[26-03-01 10:56:41.272 DBG] FlagChecker: Checker worker #0 has been stopped #Exit <System> 
+[26-03-01 10:56:41.275 DBG] FlagChecker: Flag checker has been stopped #Exit <System> 
+[26-03-01 10:56:41.276 DBG] CacheMaker: Cache update worker is stopping because task has been cancelled #Exit <System> 
+[26-03-01 10:56:41.276 DBG] CacheMaker: Cache update worker has been stopped #Exit <System> 
+[26-03-01 10:56:41.277 DBG] CacheMaker: Cache update has been stopped #Success <System> 
+[26-03-01 10:58:50.082 DBG] Server: GZ::CTF v1.8.1-patch.1-5a682b5526cdc6853cb8d55a60a2b9797e544825 build at 2026-02-11T11:32:17Z #Pending <System> 
+[26-03-01 10:58:50.237 DBG] CacheMaker: Cache update worker has been started #Pending <System> 
+[26-03-01 10:58:50.242 DBG] FlagChecker: Checker worker #0 has been started #Pending <System> 
+[26-03-01 10:58:50.245 DBG] FlagChecker: Checker worker #1 has been started #Pending <System> 
+[26-03-01 10:58:50.563 DBG] FlagChecker: Flag checker has been started #Success <System> 
+[26-03-01 10:58:50.582 DBG] CronJobService: Cron job has been started #Success <System> 
+[26-03-01 10:58:50.586 WRN] Diagnostics: Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'. 
+[26-03-01 11:00:00.707 DBG] CacheMaker: Cache updated: _RecentGames[11:00:00.587] @ 21 bytes #Success <System> 
+[26-03-01 11:00:00.795 DBG] DockerProvider: Docker Initialization Success (localhost) #Success <System> 
+[26-03-01 11:00:00.795 DBG] DockerManager: Container mode：Docker Instance Container Controls #Success <System> 
+[26-03-01 11:19:36.739 DBG] InfoController: Cache updated: _ClientConfig[11:19:36.731] @ 94 bytes #Success <System> 
+[26-03-01 11:19:38.572 DBG] PostRepository: Cache updated: _Posts[11:19:38.321] @ 272 bytes #Success <System> 
+[26-03-01 11:20:04.434 DBG] InfoController: Cache updated: _CaptchaConfig[11:20:04.432] @ 25 bytes #Success <System> 
+[26-03-01 11:20:42.973 INF] AccountController: User successfully registered #Success <admin>  @ ::ffff:112.49.236.211

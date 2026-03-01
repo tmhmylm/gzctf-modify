@@ -1,0 +1,9 @@
+/* The GZ::CTF Project @v1.8.1-patch.1
+ * 
+ * License   : GNU Affero General Public License v3.0 (Core)
+ * License   : LicenseRef-GZCTF-Restricted (Restricted components)
+ * Commit    : 5a682b5526cdc6853cb8d55a60a2b9797e544825
+ * Build     : 2026-02-11T11:32:17Z
+ * Copyright (C) 2022-2026 GZTimeWalker. All Rights Reserved.
+ */
+import{t as e}from"./onwoyxdt.js";import"./mqil03bu.js";import{$r as t,Kr as n,Or as r,Pa as i,X as a,dr as o,hr as s,j as c,ka as l,q as u,ur as d,xa as f,zn as p}from"./index.ozib4idt.js";import{t as m}from"./j3b39c3g.js";var h=c(),g=i(l(),1),_=i(f(),1),v=()=>{let i=o(),c=d(),l=new URLSearchParams(c.search),f=l.get(`token`),v=l.get(`email`),[y,b]=(0,g.useState)(!1),{t:x}=s();return e(x(`account.title.verify`)),(0,_.jsx)(m,{onSubmit:async e=>{if(e.preventDefault(),!f||!v){r({color:`red`,title:x(`account.notification.verify.failed`),message:x(`common.error.param_missing`),icon:(0,_.jsx)(h.Icon,{path:a,size:1})});return}b(!0);try{await p.account.accountVerify({token:f,email:v}),r({color:`teal`,title:x(`account.notification.verify.success`),message:window.atob(v),icon:(0,_.jsx)(h.Icon,{path:u,size:1})}),i(`/account/login`)}catch{r({color:`red`,title:x(`account.notification.verify.failed`),message:x(`common.error.param_error`),icon:(0,_.jsx)(h.Icon,{path:a,size:1})})}finally{b(!1)}},children:v&&f?(0,_.jsxs)(_.Fragment,{children:[(0,_.jsx)(t,{size:`md`,fw:500,children:x(`account.content.welcome`,{decodeEmail:window.atob(v)})}),(0,_.jsx)(t,{size:`md`,fw:500,children:x(`account.content.verify.message`)}),(0,_.jsx)(n,{mt:`lg`,type:`submit`,w:`50%`,disabled:y,children:x(`account.button.verify_account`)})]}):(0,_.jsxs)(_.Fragment,{children:[(0,_.jsx)(t,{size:`md`,fw:500,children:x(`account.content.link_invalid`)}),(0,_.jsx)(t,{size:`md`,fw:500,children:x(`account.content.link_check`)})]})})};export{v as default};

@@ -1,0 +1,9 @@
+/* The GZ::CTF Project @v1.8.1-patch.1
+ * 
+ * License   : GNU Affero General Public License v3.0 (Core)
+ * License   : LicenseRef-GZCTF-Restricted (Restricted components)
+ * Commit    : 5a682b5526cdc6853cb8d55a60a2b9797e544825
+ * Build     : 2026-02-11T11:32:17Z
+ * Copyright (C) 2022-2026 GZTimeWalker. All Rights Reserved.
+ */
+import{t as e}from"./onwoyxdt.js";import{n as t,t as n}from"./mqil03bu.js";import{t as r}from"./wtlxo888.js";import{$r as i,Gr as a,Ir as o,Nr as s,Pa as c,Qr as l,Vr as u,dr as d,hr as f,lr as p,ur as m,xa as h}from"./index.ozib4idt.js";var g=c(h(),1),_=()=>{let c=m().state?.email||`ctf@example.com`,{t:h}=f(),_=d();return e(h(`account.title.verify_email`)),(0,g.jsx)(a,{h:`100vh`,children:(0,g.jsxs)(o,{align:`center`,justify:`center`,maw:400,px:`md`,children:[(0,g.jsx)(t,{onClick:()=>_(`/`)}),(0,g.jsxs)(o,{gap:`xs`,align:`center`,justify:`center`,children:[(0,g.jsx)(s,{order:3,ta:`center`,children:h(`account.content.verify_email.title`)}),(0,g.jsx)(i,{size:`md`,fw:`bold`,ta:`center`,children:(0,g.jsx)(r,{i18nKey:`account.content.verify_email.message`})}),(0,g.jsx)(i,{size:`md`,fw:`bold`,ff:`monospace`,c:`brand`,ta:`center`,children:c}),(0,g.jsxs)(o,{gap:4,mt:`sm`,align:`stretch`,w:`100%`,children:[(0,g.jsx)(i,{size:`xs`,fw:`bold`,ta:`center`,children:h(`account.content.verify_email.not_received.title`)}),(0,g.jsx)(u,{spacing:4,size:`xs`,c:`dimmed`,withPadding:!0,children:(0,g.jsxs)(r,{i18nKey:`account.content.verify_email.not_received.list`,children:[(0,g.jsx)(u.Item,{}),(0,g.jsx)(u.Item,{})]})})]}),(0,g.jsx)(l,{fz:`xs`,className:n.alignSelfEnd,component:p,to:`/account/login`,mt:`sm`,children:h(`account.anchor.login`)})]})]})})};export{_ as default};

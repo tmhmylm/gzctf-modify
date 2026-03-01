@@ -1,0 +1,9 @@
+/* The GZ::CTF Project @v1.8.1-patch.1
+ * 
+ * License   : GNU Affero General Public License v3.0 (Core)
+ * License   : LicenseRef-GZCTF-Restricted (Restricted components)
+ * Commit    : 5a682b5526cdc6853cb8d55a60a2b9797e544825
+ * Build     : 2026-02-11T11:32:17Z
+ * Copyright (C) 2022-2026 GZTimeWalker. All Rights Reserved.
+ */
+import{t as e}from"./mqil03bu.js";import{t}from"./gsu7iubs.js";import{t as n}from"./e4okc2q7.js";import{$r as r,Ai as i,Gr as a,Nn as o,Pa as s,X as c,ea as l,hr as u,j as d,ka as f,q as p,vi as m,xa as h}from"./index.ozib4idt.js";var g=d();f();var _=s(h()),v=({meets:e,label:t})=>(0,_.jsx)(r,{c:e?`teal`:`red`,mt:5,size:`sm`,children:(0,_.jsxs)(a,{inline:!0,children:[e?(0,_.jsx)(g.Icon,{path:p,size:.7}):(0,_.jsx)(g.Icon,{path:c,size:.7}),(0,_.jsx)(i,{ml:7,children:t})]})});const y=r=>{let[i,{close:a,open:s}]=l(!1),c=r.value,d=o(),{t:f}=u(),p=[{re:/[0-9]/,label:f(`account.password.include_number`)},{re:/[a-z]/,label:f(`account.password.include_lowercase`)},{re:/[A-Z]/,label:f(`account.password.include_uppercase`)},{re:/[`$&+,:;=?@#|'<>.^*()%!-]/,label:f(`account.password.include_symbol`)}],h=e=>{let t=e.length>5?0:1;return p.forEach(n=>{n.re.test(e)||(t+=1)}),Math.max(100-100/(p.length+1)*t,0)},g=[(0,_.jsx)(v,{label:f(`account.password.min_length`),meets:c.length>=6},0),...p.map((e,t)=>(0,_.jsx)(v,{label:e.label,meets:e.re.test(c)},t+1))],y=h(c),b=y===100?`teal`:y>50?`yellow`:`red`;return(0,_.jsxs)(m,{withArrow:!0,opened:i,position:d?`top`:`right`,"data-mobile":d||void 0,classNames:{dropdown:e.dropdown},transitionProps:{transition:`pop-bottom-left`},children:[(0,_.jsx)(m.Target,{children:(0,_.jsx)(t,{required:!0,label:r.label??f(`account.label.password`),placeholder:`P4ssW@rd`,value:r.value,onFocusCapture:s,onBlurCapture:a,disabled:r.disabled,onChange:r.onChange,w:`100%`})}),(0,_.jsxs)(m.Dropdown,{children:[(0,_.jsx)(n,{color:b,value:y,size:5,mb:10}),g]})]})};export{y as t};

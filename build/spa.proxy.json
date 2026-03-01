@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "http://localhost:63000",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev -- --host",
+"WorkingDirectory": "/home/runner/work/GZCTF/GZCTF/src/GZCTF/ClientApp/",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

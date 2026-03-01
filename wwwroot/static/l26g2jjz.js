@@ -1,0 +1,9 @@
+/* The GZ::CTF Project @v1.8.1-patch.1
+ * 
+ * License   : GNU Affero General Public License v3.0 (Core)
+ * License   : LicenseRef-GZCTF-Restricted (Restricted components)
+ * Commit    : 5a682b5526cdc6853cb8d55a60a2b9797e544825
+ * Build     : 2026-02-11T11:32:17Z
+ * Copyright (C) 2022-2026 GZTimeWalker. All Rights Reserved.
+ */
+import{Ai as e,Ii as t,Oi as n,Pa as r,Si as i,Xi as a,ba as o,ga as s,ka as c,xa as l,zi as u}from"./index.ozib4idt.js";var d=r(c(),1),f=r(l(),1),[p,m]=o(`Card component was not found in tree`),h={root:`m_e615b15f`,section:`m_599a2148`},g=n((n,r)=>{let{classNames:i,className:a,style:o,styles:s,vars:c,withBorder:l,inheritPadding:u,mod:d,...p}=t(`CardSection`,null,n),h=m();return(0,f.jsx)(e,{ref:r,mod:[{"with-border":l,"inherit-padding":u},d],...h.getStyles(`section`,{className:a,style:o,styles:s,classNames:i}),...p})});g.classes=h,g.displayName=`@mantine/core/CardSection`;var _=a((e,{padding:t})=>({root:{"--card-padding":s(t)}})),v=n((e,n)=>{let r=t(`Card`,null,e),{classNames:a,className:o,style:s,styles:c,unstyled:l,vars:m,children:v,padding:y,attributes:b,...x}=r,S=u({name:`Card`,props:r,classes:h,className:o,style:s,classNames:a,styles:c,unstyled:l,attributes:b,vars:m,varsResolver:_}),C=d.Children.toArray(v),w=C.map((e,t)=>typeof e==`object`&&e&&`type`in e&&e.type===g?(0,d.cloneElement)(e,{"data-first-section":t===0||void 0,"data-last-section":t===C.length-1||void 0}):e);return(0,f.jsx)(p,{value:{getStyles:S},children:(0,f.jsx)(i,{ref:n,unstyled:l,...S(`root`),...x,children:w})})});v.classes=h,v.displayName=`@mantine/core/Card`,v.Section=g;export{v as t};
